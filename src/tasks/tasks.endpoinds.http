@@ -1,0 +1,29 @@
+# Fetch all tasks
+
+GET http://localhost:3200/tasks
+Content-Type:application/json
+
+# Create new task
+
+POST http://localhost:3200/tasks
+Content-Type:application/json
+
+{
+    "title": "Mern1334 Complete",
+    "date": "2024-07-25T12:00:00Z",
+    "description": "I have to complete teh todo task ASAP",
+    "priority": "normal",
+    "status": "completed"
+  }
+
+  # Update A Task 
+
+  PUT http://localhost:3200/tasks
+  Content-Type:application/json
+
+  {
+    "id":"20edb890-1750-4d38-8e3a-95c9b2d10363",
+    "status":"inprogress"
+  }
+
+
